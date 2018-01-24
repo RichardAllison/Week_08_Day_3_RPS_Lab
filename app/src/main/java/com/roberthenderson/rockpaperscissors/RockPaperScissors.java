@@ -5,4 +5,18 @@ package com.roberthenderson.rockpaperscissors;
  */
 
 public class RockPaperScissors {
+
+
+    public String play(String userMove, String computerMove) {
+        if (userMove.equals(computerMove)) {
+            return "Game is a Draw";
+        }
+        if (userMove == "Rock" && computerMove == "Scissors"){
+            return "You Win!!";
+        }
+        return null;
+
+
+    }
+
 }
