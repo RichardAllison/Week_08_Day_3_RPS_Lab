@@ -14,6 +14,22 @@ public class RockPaperScissors {
         if (userMove == "Rock" && computerMove == "Scissors"){
             return "You Win!!";
         }
+        if (userMove == "Scissors" && computerMove == "Paper"){
+            return "You Win!!";
+        }
+        if (userMove == "Paper" && computerMove == "Rock"){
+            return "You Win!!";
+        }
+
+        if (userMove == "Rock" && computerMove == "Paper"){
+            return "You Lose!!";
+        }
+        if (userMove == "Scissors" && computerMove == "Rock"){
+            return "You Lose!!";
+        }
+        if (userMove == "Paper" && computerMove == "Scissors"){
+            return "You Lose!!";
+        }
         return null;
 
 
