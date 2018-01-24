@@ -25,22 +25,22 @@ public class RockPaperScissors {
             return "Game is a Draw";
         }
         if (userMove.equals("Rock") && computerMove.equals("Scissors")){
-            return "You Win!!";
+            return "You Win, Computer Chose Scissors!!";
         }
         if (userMove.equals("Scissors") && computerMove.equals("Paper")){
-            return "You Win!!";
+            return "You Win, Computer Chose Paper!!";
         }
         if (userMove.equals("Paper") && computerMove.equals("Rock")){
-            return "You Win!!";
+            return "You Win, Computer Chose Rock!!";
         }
         if (userMove.equals("Rock") && computerMove.equals("Paper")){
-            return "You Lose!!";
+            return "You Lose, Computer Chose Paper!!";
         }
         if (userMove.equals("Scissors") && computerMove.equals("Rock")){
-            return "You Lose!!";
+            return "You Lose, Computer Chose Rock!!";
         }
         if (userMove.equals("Paper") && computerMove.equals("Scissors")){
-            return "You Lose!!";
+            return "You Lose, Computer Chose Scissors!!";
         }
         return null;
     }
