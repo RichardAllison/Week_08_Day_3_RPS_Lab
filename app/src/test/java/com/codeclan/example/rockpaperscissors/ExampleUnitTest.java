@@ -1,4 +1,4 @@
-package com.roberthenderson.rockpaperscissors;
+package com.codeclan.example.rockpaperscissors;
 
 import org.junit.Test;
 

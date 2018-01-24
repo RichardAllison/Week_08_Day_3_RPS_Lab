@@ -1,4 +1,4 @@
-package com.roberthenderson.rockpaperscissors;
+package com.codeclan.example.rockpaperscissors;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.roberthenderson.rockpaperscissors", appContext.getPackageName());
+        assertEquals("com.codeclan.example.rockpaperscissors", appContext.getPackageName());
     }
 }

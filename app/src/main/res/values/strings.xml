@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">RockPaperScissors</string>
+    <string name="instructions">Instructions:</string>
+    <string name="welcome">Welcome!</string>
+    <string name="play">Play</string>
+    <string name="select_move">Select your move:</string>
+    <string name="computer_s_move">Computer\'s Move:</string>
+    <string name="your_move">Your move:</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.roberthenderson.rockpaperscissors;
+package com.codeclan.example.rockpaperscissors;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -18,7 +18,6 @@ public class RockPaperScissors {
         move.add("Paper");
         move.add("Scissors");
     }
-
 
     public String play(String userMove, String computerMove) {
         if (userMove.equals(computerMove)) {
@@ -44,7 +43,6 @@ public class RockPaperScissors {
         }
         return null;
     }
-
 
     public String getComputerMove(){
         Collections.shuffle(move);
